@@ -5,7 +5,7 @@ body{
 }
 #first{
     color: white;
-    background-image: url(../images/backgrounds/h_img.jpg);
+    background-image: url(./images/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
     text-align: center;
     background-size: 100% 100%;
@@ -19,7 +19,7 @@ body{
     font-family: galada;
 }
 .service{
-    background-image: url(../images/backgrounds/s_image.jpg);
+    background-image: url(./images/backgrounds/s_image.jpg);
     text-align: center;
     background-position: cover;
     background-size: cover;
@@ -72,7 +72,7 @@ body{
 .contact-form{
     text-align: center;
     padding: 2%;
-    background-image: url(../images/backgrounds/c_image.jpg);
+    background-image: url(./images/backgrounds/c_image.jpg);
     background-repeat: repeat;
     background-size: cover;
 }
