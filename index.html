@@ -1,209 +1,189 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
-<link type="text/css" rel="stylesheet" href="style.css">
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<title>Delani Studio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <title>DELANI STUDIO</title>
 </head>
-
 <body>
-    <div class="container-fluid" id="head">
-        <div id="first">
-                <div id="start">
-                    <img src="./images/logo/logo.png" alt="logo image" class="img">
-                </div>
-                <br><br>
-                <div class="head">
-                    <h1>Welcome</h1>
-                    <h1>TO DELANI STUDIO</h1>
-                    <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</p>
-                    <br><br>
 
-                    <div id="beats">
-                        <img src="./images/mouse_click.png" alt="clicking mouse" class="mouse_click">
-                    </div>
-                </div>
-             </div>
-         </div> 
+  <div class="container-fluid" id="intro">
+       <img src="./images/logo/logo.png" id="logo">
+       <h1>WELCOME</h1>
+       <h1>TO DELANI STUDIO</h1>
+       <p><span>Amazing people are making amazing designs in a fun environment</span></p>
+       <img src="./images/mouse_click.png" id="mouseClick">
+   </div>
+   <div class="container">
 
-             <div class="info">
-                 <h1>ABOUT US</h1>
-                 <p>When you work with us, you are part of commited collaborators.All aspects of our software development process are integrated , interactive <br> and  agile. <br>
-                    Our approach unifies design, development  and product management to create exceptional products.
-                  <br><p> We start each project by understanding your business goals, the user's needs and the product requirement <br><br>
-                    Then we help translate them into effective and elegant solutions.
-                </p>          
-             </div>
-             <div class="service">
-                 <h1>SERVICES</h1>
-                 <p>
-                    Before we sign a contract or write a line of code our team will spend the necessary time to understand your product vision <br>
-                    The outcome of this scoping session is a proposal or high-level statement of work.<br>
-                    based on your requirements, we can provide a complete offering or just the pieces you need.
-                  </p>
-             </div>
-             
-             <section id="what-we-do">
-              <h1 id="to-do">WHAT WE DO</h1>
-              <div class="container">
-                <div class="row">
-                  <div class="col-sm-4 doings">
-                    <div class="design1">
-                      <div class="icon">
-                        <img src="./images/services_icons/design_icon.png" alt="Design Icon">
-                      </div>
-                      <h6>DESIGN</h6>
-                    </div>
-                    <div class="details1">
-                      <h6>DESIGN</h6>
-                      <p>
-                        Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.<br>
-                        Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-                      </p>
-                    </div>
-                  </div>
-    
-                  <div class="col-sm-4 doings">
-                    <div class="design2">
-                      <div class="icon">
-                        <img src="./images/services_icons/dev_icon.png" alt="Development Icon">
-                      </div>
-                      <h6>DEVELOPMENT</h6>
-                    </div>
-                    <div class="details2">
-                      <h6>DEVELOPMENT</h6>
-                      <p>
-                        All engineers are fluent in the latest enterprise, mobile and web development technologies.<br>
-                        They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-sm-4 doings">
-                    <div class="design3">
-                      <div class="icon">
-                        <img src="./images/services_icons/product_icon.png" alt="Product Management Icon">
-                      </div>
-                      <h6>PRODUCT MANAGEMENT</h6>
-                    </div>
-                    <div class="details3">
-                      <h6>PRODUCT MANAGEMENT</h6>
-                      <p>
-                        Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.<br>
-                        This iterative process allows for changes as business requirements evolve.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-                
-                <div class="container">
-                    <h1 id="bottom">PORTFOLIO</h1>
-                  <div class="row" id="images1">
-                    <div class="col-md-3">
-                      <div class="port_desc">                    
-                        <img src="./images/portfolio/work4.jpg" alt="image" height="200px" class="image img-fluid">
-                        <div class="porttext" style="display:none">Smart City</div>
-                    </div>
-                  </div>
-                    <div class="col-md-3">
-                      <div class="port_desc">
-                        <img src="./images/portfolio/work3.jpg" alt="image" height="200px" class="image img-fluid">
-                        <div class="porttext" style="display:none">Ontario security</div>
-                      </div>
-                    </div>
-
-                    <div class="col-md-3">
-                      <div class="port_desc">                    
-                        <img src="./images/portfolio/work2.jpg" alt="image" height="200px" class="image img-fluid">
-                        <div class="porttext" style="display:none">Design Kenya</div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="port_desc">                    
-                      <img src="./images/portfolio/work1.jpg" alt="image" height="200px" class="image img-fluid">
-                      <div class="porttext" style="display:none">Weather Informer</div>
-                  </div>
-                </div>
-                  </div>
-                  <div class="container">
-                  <div class="row">
-                
-                    <div class="col-md-3">
-                      <div class="port_desc">                    
-                        <img src="./images/portfolio/work5.jpg" alt="image" height="200px" class="image img-fluid">
-                        <div class="porttext" style="display:none">Lets chat</div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-3">
-                    <div class="port_desc">                    
-                      <img src="./images/portfolio/work6.jpg" alt="image" height="200px" class="image img-fluid">
-                      <div class="porttext" style="display:none">Mobile Application</div>
-                  </div>
-                </div>
-                
-                  <div class="col-md-3">
-                      <div class="port_desc">                    
-                        <img src="./images/portfolio/work7.jpg" alt="image" height="200px" class="image img-fluid">
-                        <div class="porttext" style="display:none">Mock Up Burned</div>
-                    </div>
-                  </div>
-
-                   <div class="col-md-3">
-                      <div class="port_desc">                    
-                        <img src="./images/portfolio/work8.jpg" alt="image" height="200px" >
-                        <div class="porttext" style="display:none">Girraffe restaurant</div>
-                    </div>
-                  </div>
-                    </div>
-                  </div>
-                  
-                  <div class="contact-form">
-                    <h2 class="contact">CONTACT US</h2>
-                  <form id="submission">
-                    <span class="message"></span>
-                    <label for="name"></label>
-                    <input type="name" id="name" placeholder="Name..." name="name">
-                    <label for="email"></label>
-                    <input type="email" id="email" placeholder="Email..." name="email" >
-                    <div class="form-group">
-                      <label for="message"></label>
-                      <textarea id="area" placeholder="Your message here..."rows="6"></textarea>
-                    </div>
-                    <button>Submit</button>
-                  </form>
-                  </div>
-
-                    
-    
-            <div class="card-footer">
-              <div id="row">
-                <div class="icon">
-                <a href="#"><img src="./images/social_icons/twitter.png" alt="twitter"></a>
-                <a href="#"><img src="./images/social_icons/dribble.png" alt="dribble"></a>
-                <a href="#"><img src="./images/social_icons/facebook.png" alt="facebook"></a>
-                <a href="#"><img src="./images/social_icons/g_plus.png" alt="g_plus"></a>
-                <a href="#"><img src="./images/social_icons/skype.png" alt="skype"></a>
-                <a href="#"><img src="./images/social_icons/stumble_upon.png" alt="stumble_upon"></a>
-                <a href="#"><img src="./images/social_icons/behance.png" alt="behance"></a>
-                <a href="#"><img src="./images/social_icons/flickr.png" alt="flickr"></a>
-                </div>
-              </div>
-               <div class="delani">
-                <h4>DELANI STUDIO</h4>
-                <p>2019</p>
-            
+       <div class="land" id="aboutUs">
+           <div class=" text-center">
+               <h1>ABOUT US</h1>
+               <p>When you work with us, you are part of a team of committed collaborators. All
+                   aspects of our software development process are intergrated,interactive<br> and agile.</p>
+                  Our approach unifies design,development and product management to create
+                   exceptional products.
+                   <br><p>We start each project by understanding your business goals, the user's need and the
+                   product requirements<br><br> Then we help translate them into effective and elegant solutions.
+               </p>
+           </div>
+       </div>
+   </div>
+   <!--SERVICES SECTION-->
+   <div class="m " id="services">
+       <div class="row">
+           <div class="col text-center">
+               <h1>SERVICES</h1>
+               <P>Before we sign a contract or write a line of code, our team will spend the necessary time needed to
+                   understand your product vision<br></P>
+               <p>The outcome of this scoping session is proposal or high-level statement of work.<br>based on your
+                   requirements,we can provide a complete offering or just the pieces you need.</p>
+           </div>
+       </div>
+   </div>
+  <!-- WHAT WE DO SECTION -->
+   <div class="container whatWeDo ">
+       <h1 class="text-center what ">WHAT WE DO</h1>
+       <div class="row text-center">
+           <div class="col-md-4 icons">
+               <img src="./images/services_icons/design_icon.png" class="show img-fluid">
+               <h2><strong>DESIGN</strong></h2>
+               <div class="toggle">
+                   <p> Our design practice offers a full range of services including brand strategy,
+                     interaction and visual design and user experience testing.</p>
+                   <p>Throughout yuor project,our designers create and implement visual design and workflows,solicit
+                       user feedback and work with you to make sure what gets built is what is needed.</p>
                </div>
-            
-               
-             </div>
-        
-             <script src="script.js"></script>
+           </div>
+           <div class="col-md-4 icons">
+               <img src="./images/services_icons/dev_icon.png" class="show img-fluid">
+               <h2><strong>DEVELOPMENT</strong></h2>
+               <div class="toggle">
+                   <P>All engineers are fluent in the latest enterprise, mobile and web development technologies. They
+                       collaborate with your team to write, and improve code on a daily basis, using proven practices
+                       such as test-driven development and pair programming. </P>
+               </div>
+           </div>
+           <div class="col-md-4 icons">
+               <img src="./images/services_icons/product_icon.png" class="show img-fluid">
+               <h2><strong>PRODUCT MANAGEMENT</strong></h2>
+               <div class="toggle">
+                   <p>Planning and development is iterative. Because we are constantly coding and testing, the products
+                       we build are always ready to go live. This iterative process allows for changes as business
+                       requirements evolve.</p>
+               </div>
+           </div>
+       </div>
+   </div>
+<!-- PORTFOLIO -->
+   <div class="container" id="portfolio">
+       <h1 class="text-center port ">PORTFOLIO</h1>
+       <div class="row">
+           <div class="card-deck">
+               <div class="card">
+                   <img src="./images/portfolio/work4.jpg" class="card-img-top" alt="">
+                    <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">BLACK<br>WALLPAPER</p>
+                   </div>
+               </div>
+               <div class="card">
+                    <img src="./images/portfolio/work3.jpg" class="card-img-top" alt="">
+                   <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">ONTARIO <br>SECURITY</p>
+                   </div>
+               </div>
+               <div class="card">
+                       <img src="./images/portfolio/work2.jpg" class="card-img-top" alt="">
+                   <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">PYRAMIDS</p>
+                   </div>
+               </div>
+               <div class="card">
+                       <img src="./images/portfolio/work1.jpg" class="card-img-top" alt="">
+                   <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">JIM CARREY</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="card-deck">
+
+               <div class="card">
+                   <img src="./images/portfolio/work5.jpg" class="card-img-top" alt="">
+                   <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">HAVE A<br>GOOD DAY</p>
+                   </div>
+               </div>
+               <div class="card">
+                   <img src="./images/portfolio/work6.jpg" class="card-img-top" alt="">
+                   <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">Mobile <br>Application</p>
+                   </div>
+               </div>
+               <div class="card">
+                   <img src="./images/portfolio/work7.jpg" class="card-img-top" alt="">
+                   <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">BURNED</p>
+                   </div>
+               </div>
+               <div class="card">
+                   <img src="./images/portfolio/work8.jpg" class="card-img-top" alt="">
+                   <div class="card-1">
+                       <p class="ptag font-weight-bold text-uppercase">Giraffe <br>Restaurant</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+  
+   <!-- CONTACT SECTION -->
+
+   <div class="contact">
+           <h4>CONTACT US</h4>
+           <div class="form">
+             <form id="form34A" action="https://gmail.us18.list-manage.com/subscribe/post" method="POST">
+               <input type="hidden" name="u" value="88a47736b2f9002129bfbdb5c">
+               <input type="hidden" name="id" value="4069edd6b9">
+                <form action="form-cont">
+                <input id="name" required placeholder="Name...">
+                <input id="email" required placeholder="Email..."><br><br>
+                <input id="message" placeholder="Your message here..." required><br><br>
+                
+                <input id="submit" type="submit" placeholder="Submit">
+              </form>
+           </div>
+       </div>
+   <!-- SOCIALS -->
+   <section class="links text-center" id="links">
+       <div class="  text-center   social">
+           <img src="./images/social_icons/twitter.png" alt="" class="all" srcset="">
+           <img src="./images/social_icons/dribble.png" class="all" alt="" srcset="">
+           <img src="./images/social_icons/facebook.png" class="all" alt="" srcset="">
+           <img src="./images/social_icons/g_plus.png" class="all" alt="" srcset="">
+           <img src="./images/social_icons/skype.png" alt="" class="all" srcset="">
+           <img src="./images/social_icons/stumble_upon.png" class="all" alt="" srcset="">
+           <img src="./images/social_icons/behance.png" class="all" alt="" srcset="">
+           <img src="./images/social_icons/pinterest.png" class="all" alt="" srcset="">
+           <img src="./images/social_icons/flickr.png" class="all" alt="" srcset="">
+           <img src="./images/social_icons/you_tube.png" alt="" class="all" srcset="">
+       </div>
+   </section>
+   <!-- FOOTER -->
+   <div class=" footer text-center">
+       <p>DELANI STUDIO<br>2019</p>
+   </div>
+   </div>
+
+
+ 
+<script src="script.js"></script>
+
 </body>
 </html>
