@@ -10,7 +10,7 @@ You can install it with the following command in your terminal.
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-2. Use this command to clone `$ git clone https://`
+2. Use this command to clone `$ git clone https://floicenyota98.github.io/delani-studio3/`
 3. This will clone the repositoty into your local folder
  __Enjoy :)__
 ### Technologies Used
@@ -20,5 +20,5 @@ To access this project on your local files, you can clone it using these steps
 4. JQUERY - Used to make the web page dynamic and manipulating the DOM.
 
 ### Live Site
-View [Live] (``)
+View [Live] (`https://floicenyota98.github.io/delani-studio3/`)
 
